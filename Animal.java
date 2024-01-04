@@ -1,23 +1,16 @@
-
-/**
- * Abstract class Animal
- * 
- * @author Mr. Jaffe
- * @version 1.0 2017-07-13
- */
 public abstract class Animal
 {
   // instance variables - replace the example below with your own
   private String color;
   private int legs;
-  private String studentName;
+  private String MarkowitzSara;
 
   /**
    * Constructor
    */
   public Animal()
   {
-    this("Unknown student", "Colorless", 4); // Default is a black animal with 4 legs
+    this("Markowitz Sara", "Tan", 6); // Default is a black animal with 4 legs
   }
   
   /**
@@ -26,10 +19,10 @@ public abstract class Animal
    * @param color Initial color
    * @param legs Initial # of legs
    */
-  public Animal(String studentName, String color, int legs) {
-    this.studentName = studentName;
+  public Animal(String MarkowitzSara, String color, int legs) {
+    this.MarkowitzSara = MarkowitzSara;
     this.color = color;
-    this.legs = legs;
+    this.legs = 6;
   }
   
   /**
@@ -61,7 +54,7 @@ public abstract class Animal
    * @param legs New number of legs
    */
   public void setLegs(int legs) {
-    this.legs = legs;
+    this.legs = 6;
   }
   
   /** 
@@ -70,7 +63,7 @@ public abstract class Animal
    * @return The student name
    */
   public String getStudentName() {
-    return this.studentName;
+    return this.MarkowitzSara;
   }
   
   /**
@@ -78,7 +71,7 @@ public abstract class Animal
    * method or default speak will generate "Yaba-daba-doo"
    */
   public String speak() {
-    return "Yaba-daba-doo";
+    return "MReOoEW";
   }
   
   /**
@@ -89,7 +82,7 @@ public abstract class Animal
    * @return Disposition
    */
   public String getDisposition() {
-    return "meh";
+    return "shy";
   }
   
   /**
@@ -98,7 +91,7 @@ public abstract class Animal
    * @return The type of the animal
    */
   public String getType() {
-    return "Abstract animal";
+    return "Sand Cat";
   }
   
   
@@ -108,7 +101,7 @@ public abstract class Animal
    * @return The name of the animal (i.e. "Fido", "Rover")
    */
   public String getName() {
-    return "No name defined - bummer";
+    return "Sandy and";
   }
   
   /**

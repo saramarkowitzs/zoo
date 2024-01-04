@@ -5,13 +5,13 @@
  * @author Mr. Jaffe
  * @version 1.0 2017-07-14
  */
-public class RogerJaffe extends Animal
+public class MarkowitzSara extends Animal
 {
-  public RogerJaffe() {
-    super("Roger Jaffe", "red", 0);
+  public MarkowitzSara() {
+    super("Markowitz Sara", "Tan", 6);
   }
   
   public String getType() {
-    return "BoopleSnoot";
+    return "Sand Cat";
   }
 }
