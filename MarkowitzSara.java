@@ -1,4 +1,3 @@
-
 /**
  * A BoopleSnoot is Mr. Jaffe's animal
  * 
@@ -8,10 +7,26 @@
 public class MarkowitzSara extends Animal
 {
   public MarkowitzSara() {
-    super("Markowitz Sara", "Tan", 6);
+    super("Markowitz Sara", "pink", 2);
+  }
+  @Override 
+  public String getDisposition(){
+      return ("outgoing and adventurous");
+  }
+  @Override 
+    public String speak(){
+      return ("hraaaaaaaa-hraaaaa");
+  }
+  @Override 
+    public String getColor(){
+      return ("pink");
+  }
+   @Override 
+    public String getName(){
+      return ("flamingo");
+  }
+  public String getType() {
+    return "Flamingo";
   }
   
-  public String getType() {
-    return "Sand Cat";
-  }
 }

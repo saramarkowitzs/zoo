@@ -13,8 +13,8 @@ public class JavaZoo
     
     final int DELAY = 4;
         
-    // Change BoopleSnoot to the name of your animal class and run the 'main' 
-    // method to test your class.  You can also test your class using BlueJ
+    // Change RogerJaffe to the name of your animal class and run the 'main' 
+    // method to test your code.  
     String[] animalList = {"MarkowitzSara"};
     
     try {

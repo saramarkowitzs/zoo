@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=Animal
+comment0.text=\n\ Abstract\ class\ Animal\n\ \n\ @author\ Mr.\ Jaffe\n\ @version\ 1.0\ 2017-07-13\n
 comment1.params=
 comment1.target=Animal()
 comment1.text=\n\ Constructor\n
@@ -12,7 +13,7 @@ comment11.text=\n\ This\ will\ return\ the\ animal's\ name.\ What's\ the\ defaul
 comment12.params=
 comment12.target=java.lang.String\ toString()
 comment12.text=\n\ toString()\ is\ a\ method\ that\ all\ Java\ classes\ implement.\ \ It's\ where\ you\ can\ \n\ generate\ a\ string\ that\ describes\ the\ object.\ \ You\ should\ not\ override\ this\n\ method\ unless\ you\ know\ what\ you're\ doing\n
-comment2.params=MarkowitzSara\ color\ legs
+comment2.params=studentName\ color\ legs
 comment2.target=Animal(java.lang.String,\ java.lang.String,\ int)
 comment2.text=\n\ Overloaded\ constructor\ that\ sets\ color\ and\ \#\ of\ legs\n\ \n\ @param\ color\ Initial\ color\n\ @param\ legs\ Initial\ \#\ of\ legs\n
 comment3.params=
